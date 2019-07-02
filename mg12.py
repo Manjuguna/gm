@@ -1,0 +1,11 @@
+g1=int(input())
+temp=g1
+val1=0
+while(g1>0):
+     m=g1%10
+     val1=val1*10+m
+     g1=g1//10
+if(temp==val1):
+     print("yes")
+else:
+     print("no")
